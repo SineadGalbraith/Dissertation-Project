@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Dissertation</string>
+    <string name="WelcomeScreenButtonText">Let\'s Play</string>
 </resources>
