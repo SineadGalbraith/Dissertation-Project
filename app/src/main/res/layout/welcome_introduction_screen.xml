@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/welcome_constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#024F7B"
+        android:clickable="true"
+        android:focusable="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437">
+
+            <TextView
+                android:id="@+id/welcomeScreenTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_corners"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/welcomeNextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/welcomeScreenTextView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="4dp"
+                android:backgroundTint="#FFFFFF"
+                android:visibility="visible"
+                app:srcCompat="@drawable/next_button_icon"
+                tools:layout_editor_absoluteX="329dp"
+                tools:layout_editor_absoluteY="473dp" />
+
+            <ImageButton
+                android:id="@+id/welcomeBackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/welcomeScreenTextView"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="306dp"
+                android:backgroundTint="#FFFFFF"
+                app:srcCompat="@drawable/back_button_icon"/>
+
+            <ImageButton
+                android:id="@+id/welcomeFinishedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/welcomeScreenTextView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="6dp"
+                android:backgroundTint="#FFFFFF"
+                app:srcCompat="@drawable/finished_button_icon"
+                tools:layout_editor_absoluteX="329dp"
+                tools:layout_editor_absoluteY="473dp"
+                android:visibility="gone"/>
+
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

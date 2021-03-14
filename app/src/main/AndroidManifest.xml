@@ -13,8 +13,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".VariableStartingPage"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomeIntroductionScreen" />
+        <activity android:name=".VariableIntroductionScreen" />
+        <activity android:name=".CreateCharacterScreen" />
         <activity android:name=".WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

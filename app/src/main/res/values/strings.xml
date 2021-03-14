@@ -1,4 +1,33 @@
 <resources>
     <string name="app_name">Dissertation</string>
     <string name="WelcomeScreenButtonText">Let\'s Play</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="name">Name</string>
+    <string name="welcomeText1">Welcome to (Game Name)!\n\nIn this game, we are going to learn some of the basic and most important core concepts of programming.</string>
+    <string name="welcomeText2">There are 4 basic programming topics that we\'re going to cover:\n• Variables\n• Arithmetic\n• Conditions\n• Looping</string>
+    <string name="welcomeText3">These concepts make up the foundation of programming and so it\'s very important that we learn them.\n\nSo let\'s get started!</string>
+    <string name="variableText1">First up are Variables.\n\nVariables are used to store pieces of information such as words, phrases or numbers.</string>
+    <string name="variableText2">We can think of Variables like a box in which we can put some piece of information.\n\nOnce the information is in the box, we can open the box to see what\'s inside and even possibly add something else in too.</string>
+    <string name="variableText3">So what does a Variable look like?\n\nVariables have a \n<b><u>name</u></b> and a <b><u>value</u></b>.\n\nFor example, a Variable could be called <b>Colour</b> and its value could be <b>Blue</b>.</string>
+    <string name="variableText4">There are 3 main types of data that a Variable can store:\n•Numbers\n•Strings\n•Booleans.\n\nLet\'s have a closer look at these 3 data types.</string>
+    <string name="variableText5">A <u>Number</u> is one of the simplest types of data. We can use Variables to store numbers.\n\nFor example, a <b>score</b> in a game. At the beginning of the game, the value of the score will be 0.\n\nEvery time the player gets a point, this score will increase, adding 1 to the value of the score each time.</string>
+    <string name="variableText6">A <u>String</u> can be used to represent a word or phrase.\n\nIn the <b>Colour</b> example used earlier, the value <b>Blue</b> is a word and so that also makes it a <u>String</u> too.</string>
+    <string name="variableText7">Another example of a <u>String</u> Variable would be Animal.\n\nA Dog is an animal and so we could make a new variable with the <u>name</u> <b>Animal</b> and the <u>value</u> <b>Dog</b>.</string>
+    <string name="variableText8">The final data type for now is <u>Boolean</u>.\n\nThe value of Boolean Variables will always be either <u>True</u> or <u>False</u>.\n\n<u>Booleans</u> can be used for answering Yes or No questions or to check if an action or event has occurred.</string>
+    <string name="variableText9">We can use <u>Booleans</u> to identify when something is true or false.\n\nLet\'s pretend we are playing a game where somebody is thinking about a certain Animal.\n\nTo try and guess what Animal they are thinking of, we can only ask Yes or No questions.</string>
+    <string name="variableText10">So I might ask \"Does the animal have 4 legs?\"\n\nIf the answer is \"Yes\", then this is <u>True</u>.\n\nIf the answer is \"No\", then this is <u>False</u>.</string>
+    <string name="variableText11">Let\'s say that the answer is <u>True</u>, I can make a variable using this information.\n\nI can call my variable <b>hasFourLegs</b> and its value is <b>True</b>.</string>
+    <string name="createCharacterIntroduction1">Now that we know what <u>Variables</u> are, we can start to make our player character for this game.</string>
+    <string name="createCharacterIntroduction2">We\'re going to use Variables to build our character profile.\n\nFirst of all, the character needs a name.</string>
+    <string name="createCharacterIntroduction3">Name is an example of a <u>String</u> variable. Our name is a piece of information (a word) and so we can store it in a variable.</string>
+    <string name="enterNameHint"><u>Enter Name</u></string>
+    <string name="enterNameText1">Your character\'s name can be either your own name or a new one.\n\nEnter your character\'s name below: </string>
+    <string name="createCharacterScreenOverlayText1">Here you can see the name you just entered.\nThis name is stored in a variable called <b>name</b>.</string>
+    <string name="createCharacterAvatarChoicesText1">In order to create our character, we\'re going to use a few more details to tell us what they look like.</string>
+    <string name="createCharacterAvatarChoicesText2">The first bit of information we need is a colour for the character.\n\nPick your favourite colour from the options below:</string>
+    <string name="createCharacterAvatarChoicesText3">The colour you have picked is going to be stored in the variable <b>Colour</b>.\n\nJust like name, <b>Colour</b> is another <u>String</u> variable, this time with the value</string>
+<!--    <string name="createCharacterAvatarChoicesText3">Just like name, <b>Colour</b> is another <u>String</u> variable, this time with the value</string>-->
+    <string name="createCharacterAvatarChoicesText4">Next, pick a shape from the options below:</string>
+    <string name="createCharacterAvatarChoicesText5"><b>Shape</b> is our final <u>String</u> variable for this section.\n\nThe shape you have picked will be the shape of your character.</string>
 </resources>
