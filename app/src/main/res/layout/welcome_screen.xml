@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:focusable="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/welcomeScreenLayoutBg">
+
+    <TextView
+        android:id="@+id/gameTitleTextBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="158dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/skyBlue"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/WelcomeScreenButtonText"
+        android:textColor="#403C3C"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameTitleTextBox" />
+
+    <Button
+        android:id="@+id/leaderboardButton"
+        android:layout_width="158dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="172dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="@color/yellow"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/WelcomeScreenButtonText2"
+        android:textColor="#403C3C"
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameTitleTextBox" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

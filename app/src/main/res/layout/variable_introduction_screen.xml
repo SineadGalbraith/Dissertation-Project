@@ -12,7 +12,7 @@
         android:id="@+id/variable_constraint_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#A4D6C951"
+        android:background="@color/variableLayoutBg"
         android:clickable="true"
         android:focusable="true">
 
@@ -31,7 +31,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_corners"
-                android:fontFamily="sans-serif"
+                android:fontFamily="sans-serif-condensed"
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="22sp" />

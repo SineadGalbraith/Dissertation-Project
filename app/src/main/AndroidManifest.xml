@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.dissertation">
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-feature
         android:glEsVersion="0x00020000"
         android:required="true" />
@@ -16,6 +19,10 @@
         <activity android:name=".WelcomeIntroductionScreen" />
         <activity android:name=".VariableIntroductionScreen" />
         <activity android:name=".CreateCharacterScreen" />
+        <activity android:name=".SinglePlayerMainGameScreen" />
+        <activity android:name=".SinglePlayerLevel1Screen" />
+        <activity android:name=".MultiPlayerConnectionScreen" />
+        <activity android:name=".GameStyleChoiceScreen"/>
         <activity android:name=".WelcomeScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

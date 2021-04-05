@@ -1,17 +1,18 @@
 <resources>
-    <string name="app_name">Dissertation</string>
-    <string name="WelcomeScreenButtonText">Let\'s Play</string>
+    <string name="app_name">The Programming Game</string>
+    <string name="WelcomeScreenButtonText">Let\'s Play!</string>
+    <string name="WelcomeScreenButtonText2">Leaderboard</string>
     <string name="next">Next</string>
     <string name="back">Back</string>
     <string name="name">Name</string>
-    <string name="welcomeText1">Welcome to (Game Name)!\n\nIn this game, we are going to learn some of the basic and most important core concepts of programming.</string>
-    <string name="welcomeText2">There are 4 basic programming topics that we\'re going to cover:\n• Variables\n• Arithmetic\n• Conditions\n• Looping</string>
-    <string name="welcomeText3">These concepts make up the foundation of programming and so it\'s very important that we learn them.\n\nSo let\'s get started!</string>
+    <string name="welcomeText1">Welcome to The Programming Game!\n\nIn this game, you are going to learn some of the basic and most important core concepts of programming.</string>
+    <string name="welcomeText2">There are 4 basic programming topics that will be covered:\n• Variables\n• Arithmetic\n• Conditions\n• Looping</string>
+    <string name="welcomeText3">These concepts make up the foundation of programming and so it\'s very important to understand them.\n\nSo let\'s get started!</string>
     <string name="variableText1">First up are Variables.\n\nVariables are used to store pieces of information such as words, phrases or numbers.</string>
     <string name="variableText2">We can think of Variables like a box in which we can put some piece of information.\n\nOnce the information is in the box, we can open the box to see what\'s inside and even possibly add something else in too.</string>
     <string name="variableText3">So what does a Variable look like?\n\nVariables have a \n<b><u>name</u></b> and a <b><u>value</u></b>.\n\nFor example, a Variable could be called <b>Colour</b> and its value could be <b>Blue</b>.</string>
-    <string name="variableText4">There are 3 main types of data that a Variable can store:\n•Numbers\n•Strings\n•Booleans.\n\nLet\'s have a closer look at these 3 data types.</string>
-    <string name="variableText5">A <u>Number</u> is one of the simplest types of data. We can use Variables to store numbers.\n\nFor example, a <b>score</b> in a game. At the beginning of the game, the value of the score will be 0.\n\nEvery time the player gets a point, this score will increase, adding 1 to the value of the score each time.</string>
+    <string name="variableText4">Variables can store lots of different types of data, 3 of the most important are:\n•Numbers\n•Strings\n•Booleans\n\nLet\'s have a closer look at these 3 data types.</string>
+    <string name="variableText5">A <u>Number</u> is one of the simplest types of data. We can use Variables to store numbers.\n\nFor example, a <b>score</b> in a game. At the beginning of the game, the value of the score will be <b>0</b>.\n\nEvery time the player gets a point, this score will increase, adding 1 to the value of the score each time.</string>
     <string name="variableText6">A <u>String</u> can be used to represent a word or phrase.\n\nIn the <b>Colour</b> example used earlier, the value <b>Blue</b> is a word and so that also makes it a <u>String</u> too.</string>
     <string name="variableText7">Another example of a <u>String</u> Variable would be Animal.\n\nA Dog is an animal and so we could make a new variable with the <u>name</u> <b>Animal</b> and the <u>value</u> <b>Dog</b>.</string>
     <string name="variableText8">The final data type for now is <u>Boolean</u>.\n\nThe value of Boolean Variables will always be either <u>True</u> or <u>False</u>.\n\n<u>Booleans</u> can be used for answering Yes or No questions or to check if an action or event has occurred.</string>
@@ -27,7 +28,59 @@
     <string name="createCharacterAvatarChoicesText1">In order to create our character, we\'re going to use a few more details to tell us what they look like.</string>
     <string name="createCharacterAvatarChoicesText2">The first bit of information we need is a colour for the character.\n\nPick your favourite colour from the options below:</string>
     <string name="createCharacterAvatarChoicesText3">The colour you have picked is going to be stored in the variable <b>Colour</b>.\n\nJust like name, <b>Colour</b> is another <u>String</u> variable, this time with the value</string>
-<!--    <string name="createCharacterAvatarChoicesText3">Just like name, <b>Colour</b> is another <u>String</u> variable, this time with the value</string>-->
     <string name="createCharacterAvatarChoicesText4">Next, pick a shape from the options below:</string>
     <string name="createCharacterAvatarChoicesText5"><b>Shape</b> is our final <u>String</u> variable for this section.\n\nThe shape you have picked will be the shape of your character.</string>
+    <string name="gameStyleLabelText">Game Style:</string>
+    <string name="singlePlayerButtonText">Single Player</string>
+    <string name="MultiPlayerButtonText1">Multi-Player</string>
+    <string name="MultiPlayerButtonText2">Requires bluetooth connection to another players device.</string>
+    <string name="singlePlayerMainGameIntroductionText1">Now that you have finished building your character, you can start to play the game.</string>
+    <string name="singlePlayerMainGameIntroductionText2">There are 3 main sections to this game:\n\n•Arithmetic\n•Conditions\n•Looping</string>
+    <string name="singlePlayerMainGameIntroductionText3">Each section will have multiple levels.\n\nYou need to complete each level and gather enough points before you can move onto the next level.\n\nThe last level will be a small quiz so you can test yourself on what you\'ve learnt in the game.</string>
+    <string name="One">1</string>
+    <string name="Two">2</string>
+    <string name="Three">3</string>
+    <string name="Four">4</string>
+    <string name="Five">5</string>
+    <string name="Six">6</string>
+    <string name="Seven">7</string>
+    <string name="Eight">8</string>
+    <string name="Nine">9</string>
+    <string name="Ten">10</string>
+    <string name="singlePlayerMainGameScreenOverlay1">Now you can start to play the game!\nThis is level 1.</string>
+    <string name="singlePlayerMainGameScreenOverlay2">The other levels are locked for now but when you have enough points, the next level will be unlocked!</string>
+    <string name="singlePlayerMainGameScreenOverlay3">So let\'s get started! Click here to start Level 1!</string>
+    <string name="singlePlayerLevel1Introduction1">Over the next couple of levels, we\'re going to learn how to use <b>Arithmetic Operators</b> in programming.</string>
+    <string name="singlePlayerLevel1Introduction2">There are 4 basic Arithmetic Operations that are used while coding:\n• Addition (+)\n• Subtraction (-)\n• Multiplication (*)\n• Division (/)</string>
+    <string name="singlePlayerLevel1Introduction3">Arithmetic Operations perform an action on one or more variables.</string>
+    <string name="singlePlayerLevel1Introduction4">To complete this level in the game, you need to answer the questions correctly by clicking the button above the question that shows the operation that you think is correct.</string>
+    <string name="singlePlayerLevel1Introduction5">If you answer the question correctly first time, you will get 3 points.\n\nIf you get the question wrong you can try again but this time it will be worth 2 points.\n\nAny further attempts at the question will be worth 1 point.</string>
+    <string name="singlePlayerLevel1Introduction6">There are 9 questions in total.\n\nGood Luck!</string>
+    <string name="additionSign">\+</string>
+    <string name="subtractionSign">\-</string>
+    <string name="multiplicationSign">\*</string>
+    <string name="divisionSign">\/</string>
+
+
+
+    <string name="pairedDevices">PAIRED DEVICES</string>
+    <string name="pairNewDevice">PAIR NEW DEVICE</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="score">Score:</string>
+    <string name="addition">Addition</string>
+    <string name="subtraction">Subtraction</string>
+    <string name="multiplication">Multiplication</string>
+    <string name="division">Division</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="multiply">*</string>
+    <string name="divide">/</string>
+    <string name="equals">=</string>
+    <string name="level1Progress">/9</string>
+    <string name="level">Level</string>
+    <string name="questionMark">\?</string>
+    <string name="incorrectWarning">Incorrect, try again!</string>
+    <string name="wellDone">Well done!</string>
 </resources>

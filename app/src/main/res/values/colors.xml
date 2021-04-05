@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<!--    Default Colors  -->
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
@@ -7,4 +8,31 @@
     <color name="simpletooltip_background">#FFFFFF</color>
     <color name="simpletooltip_text">@android:color/primary_text_light</color>
     <color name="simpletooltip_arrow">@color/colorAccent</color>
+
+<!--    Button Colors   -->
+    <color name="turquoise">#3DE6CC</color>
+    <color name="skyBlue">#86DACD</color>
+    <color name="yellow">#E6E4B0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightPink">#F897D2</color>
+
+<!--    Layout Background Colors    -->
+    <color name="welcomeScreenLayoutBg">#E6B5B5</color>
+    <color name="welcomeLayoutBg">#024F7B</color>
+    <color name="variableLayoutBg">#A4D6C951</color>
+    <color name="characterLayoutBg">#CE7FB576</color>
+    <color name="gameStyleLayoutBg">#CEB9B3D6</color>
+    <color name="multiPlayerConnectionLayoutBg">#BEE3DE</color>
+    <color name="singPlayerLevel1LayoutBg">#79CABF</color>
+    <color name="singPlayerLevel2LayoutBg">#CA7979</color>
+    <color name="singPlayerLevel3LayoutBg">#CAC279</color>
+    <color name="singPlayerLevel4LayoutBg">#79CA84</color>
+    <color name="singPlayerLevel5LayoutBg">#A279CA</color>
+    <color name="singPlayerLevel6LayoutBg">#A8CA79</color>
+    <color name="singPlayerLevel7LayoutBg">#CAA379</color>
+    <color name="singPlayerLevel8LayoutBg">#7999CA</color>
+    <color name="singPlayerLevel9LayoutBg">#DFE37F</color>
+    <color name="singPlayerLevel10LayoutBg">#9879CA</color>
+
+    <color name="mainGameLayoutBg">#E6242A2B</color>
 </resources>

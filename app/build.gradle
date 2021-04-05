@@ -6,6 +6,11 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
     defaultConfig {
         applicationId "com.dissertation"
         minSdkVersion 22
@@ -35,6 +40,7 @@ dependencies {
     implementation('com.github.douglasjunior:android-simple-tooltip:1.0.0-rc.0') {
         changing = true
     }
+    implementation group: 'commons-io', name: 'commons-io', version: '2.7'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
