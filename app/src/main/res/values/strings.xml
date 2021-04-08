@@ -5,6 +5,8 @@
     <string name="next">Next</string>
     <string name="back">Back</string>
     <string name="name">Name</string>
+    <string name="nameLabel"><b>Name:</b></string>
+    <string name="scoreLabel"><b>Score:</b></string>
     <string name="welcomeText1">Welcome to The Programming Game!\n\nIn this game, you are going to learn some of the basic and most important core concepts of programming.</string>
     <string name="welcomeText2">There are 4 basic programming topics that will be covered:\n• Variables\n• Arithmetic\n• Conditions\n• Looping</string>
     <string name="welcomeText3">These concepts make up the foundation of programming and so it\'s very important to understand them.\n\nSo let\'s get started!</string>
@@ -37,6 +39,7 @@
     <string name="singlePlayerMainGameIntroductionText1">Now that you have finished building your character, you can start to play the game.</string>
     <string name="singlePlayerMainGameIntroductionText2">There are 3 main sections to this game:\n\n•Arithmetic\n•Conditions\n•Looping</string>
     <string name="singlePlayerMainGameIntroductionText3">Each section will have multiple levels.\n\nYou need to complete each level and gather enough points before you can move onto the next level.\n\nThe last level will be a small quiz so you can test yourself on what you\'ve learnt in the game.</string>
+    <string name="Zero">0</string>
     <string name="One">1</string>
     <string name="Two">2</string>
     <string name="Three">3</string>
@@ -60,9 +63,6 @@
     <string name="subtractionSign">\-</string>
     <string name="multiplicationSign">\*</string>
     <string name="divisionSign">\/</string>
-
-
-
     <string name="pairedDevices">PAIRED DEVICES</string>
     <string name="pairNewDevice">PAIR NEW DEVICE</string>
     <string name="on">On</string>
@@ -83,4 +83,5 @@
     <string name="questionMark">\?</string>
     <string name="incorrectWarning">Incorrect, try again!</string>
     <string name="wellDone">Well done!</string>
+    <string name="createCharacterInstructions">Pick an avatar from the options below and confirm your choice using the tick:</string>
 </resources>
