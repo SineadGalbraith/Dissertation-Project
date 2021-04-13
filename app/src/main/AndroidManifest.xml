@@ -18,8 +18,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".WelcomeIntroductionScreen" />
         <activity android:name=".VariableIntroductionScreen" />
-        <activity android:name=".CreateCharacterScreen" />
         <activity android:name=".SinglePlayerMainGameScreen" />
+        <activity android:name=".CreateCharacterScreen" />
         <activity android:name=".SinglePlayerLevel1Screen" />
         <activity android:name=".MultiPlayerConnectionScreen" />
         <activity android:name=".GameStyleChoiceScreen"/>

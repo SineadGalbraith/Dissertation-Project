@@ -8,7 +8,7 @@
     android:focusable="true">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/single_player_main_game_introduction_constraint_layout"
+        android:id="@+id/dialog_fragment_constraint_layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_corners"
@@ -16,16 +16,16 @@
         android:focusable="true">
 
         <RelativeLayout
-            android:id="@+id/singlePlayerMainGameIntroductionFragment"
+            android:id="@+id/dialogFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintBottom_toTopOf="@+id/singlePlayerMainGameIntroductionNextButton"
+            app:layout_constraintBottom_toTopOf="@+id/dialogFragmentNextButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
 
             <TextView
-                android:id="@+id/singlePlayerMainGameIntroductionTextView"
+                android:id="@+id/dialogFragmentTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_corners"
@@ -36,7 +36,7 @@
         </RelativeLayout>
 
         <ImageButton
-            android:id="@+id/singlePlayerMainGameIntroductionNextButton"
+            android:id="@+id/dialogFragmentNextButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -48,25 +48,26 @@
             app:srcCompat="@drawable/next_button_icon" />
 
         <ImageButton
-            android:id="@+id/singlePlayerMainGameIntroductionBackButton"
+            android:id="@+id/dialogFragmentBackButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_marginStart="-1dp"
             android:backgroundTint="#FFFFFF"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:srcCompat="@drawable/back_button_icon" />
 
         <ImageButton
-            android:id="@+id/singlePlayerMainGameIntroductionFinishedButton"
+            android:id="@+id/dialogFragmentFinishedButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="4dp"
             android:backgroundTint="#FFFFFF"
-            android:visibility="gone"
+            android:visibility="invisible"
             app:srcCompat="@drawable/finished_button_icon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>

@@ -27,6 +27,7 @@
     <string name="enterNameHint"><u>Enter Name</u></string>
     <string name="enterNameText1">Your character\'s name can be either your own name or a new one.\n\nEnter your character\'s name below: </string>
     <string name="createCharacterScreenOverlayText1">Here you can see the name you just entered.\nThis name is stored in a variable called <b>name</b>.</string>
+    <string name="createCharacterScreenOverlayText2">You can also see your score here.\n\n At the moment this score is 0 but as you complete the levels, your score will increase.\n\nThis score is stored in a variable called <b>score</b>.</string>
     <string name="createCharacterAvatarChoicesText1">In order to create our character, we\'re going to use a few more details to tell us what they look like.</string>
     <string name="createCharacterAvatarChoicesText2">The first bit of information we need is a colour for the character.\n\nPick your favourite colour from the options below:</string>
     <string name="createCharacterAvatarChoicesText3">The colour you have picked is going to be stored in the variable <b>Colour</b>.\n\nJust like name, <b>Colour</b> is another <u>String</u> variable, this time with the value</string>
@@ -39,6 +40,7 @@
     <string name="singlePlayerMainGameIntroductionText1">Now that you have finished building your character, you can start to play the game.</string>
     <string name="singlePlayerMainGameIntroductionText2">There are 3 main sections to this game:\n\n•Arithmetic\n•Conditions\n•Looping</string>
     <string name="singlePlayerMainGameIntroductionText3">Each section will have multiple levels.\n\nYou need to complete each level and gather enough points before you can move onto the next level.\n\nThe last level will be a small quiz so you can test yourself on what you\'ve learnt in the game.</string>
+    <string name="singlePlayerMainGamePlayerProfileOverlayText1">Here you can see your player details including your name and current score.\n\nTo see your full player profile, click the button on the right.</string>
     <string name="Zero">0</string>
     <string name="One">1</string>
     <string name="Two">2</string>

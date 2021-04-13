@@ -19,11 +19,14 @@ class SinglePlayerMainGameIntroductionFragment : DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.single_player_main_game_introduction_fragment, container, false)
-        val textView = view.findViewById<TextView>(R.id.singlePlayerMainGameIntroductionTextView)
-        val nextButton = view.findViewById<ImageButton>(R.id.singlePlayerMainGameIntroductionNextButton)
-        val backButton = view.findViewById<ImageButton>(R.id.singlePlayerMainGameIntroductionBackButton)
-        val finishedButton = view.findViewById<ImageButton>(R.id.singlePlayerMainGameIntroductionFinishedButton)
+        val view = inflater.inflate(R.layout.dialog_fragment, container, false)
+        val textView = view.findViewById<TextView>(R.id.dialogFragmentTextView)
+        val nextButton = view.findViewById<ImageButton>(R.id.dialogFragmentNextButton)
+        val backButton = view.findViewById<ImageButton>(R.id.dialogFragmentBackButton)
+        val finishedButton = view.findViewById<ImageButton>(R.id.dialogFragmentFinishedButton)
+
+        backButton.visibility = View.VISIBLE
+
         nextButton.setOnClickListener {
             onNextButtonPressed(textView, nextButton, finishedButton)
         }
@@ -42,7 +45,7 @@ class SinglePlayerMainGameIntroductionFragment : DialogFragment() {
         view: View,
         @Nullable savedInstanceState: Bundle?
     ) {
-        val textView = view.findViewById<TextView>(R.id.singlePlayerMainGameIntroductionTextView)
+        val textView = view.findViewById<TextView>(R.id.dialogFragmentTextView)
         textView.setText(R.string.singlePlayerMainGameIntroductionText1)
     }
 

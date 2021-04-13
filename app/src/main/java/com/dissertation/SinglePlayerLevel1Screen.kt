@@ -3,6 +3,7 @@ package com.dissertation
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
@@ -37,6 +38,7 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
     private var answerFeedback : ImageView? = null
     private var operationsTextView: TextView? = null
     private var nextButton : ImageButton? = null
+    private var finishedButton : ImageButton? = null
     private var tryAgain : TextView? = null
     private var wellDone : TextView? = null
 
@@ -51,6 +53,7 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         val multiplicationButton = findViewById<ImageButton>(R.id.multiplicationButton)
         val divisionButton = findViewById<ImageButton>(R.id.divisionButton)
         nextButton = findViewById(R.id.level1NextButton)
+        finishedButton = findViewById(R.id.level1FinishedButton)
 
         levelProgress = findViewById(R.id.level1QuestionProgress)
         operationsTextView = findViewById(R.id.level1QuestionOperator)
@@ -64,6 +67,11 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
 
         nextButton?.setOnClickListener {
             onNextClick()
+        }
+
+        finishedButton?.setOnClickListener {
+            finishLevel()
+            finish()
         }
 
         for (i in 0..8) {
@@ -127,35 +135,30 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
     private fun checkAnswer(pageNumber : Int, guess : Int) {
         val index = indexArray[pageNumber - 1]
         val questionAnswer = questionsAndAnswers[index]?.get(2)
+
         if(questionAnswer == guess) {
+            if (!page9) {
+                nextButton?.visibility = View.VISIBLE
+            } else if (page9) {
+                finishedButton?.visibility = View.VISIBLE
+            }
+            answerFeedback?.visibility = View.VISIBLE
+            wellDone?.visibility = View.VISIBLE
+            tryAgain?.visibility = View.INVISIBLE
+            answerFeedback?.setBackgroundResource(R.drawable.correct_icon)
             if (questionAttempts == 1) {
                 score += 3
-                answerFeedback?.visibility = View.VISIBLE
-                answerFeedback?.setBackgroundResource(R.drawable.correct_icon)
-                nextButton?.visibility = View.VISIBLE
-                wellDone?.visibility = View.VISIBLE
-                tryAgain?.visibility = View.INVISIBLE
 
             } else if (questionAttempts == 2) {
                 score += 2
-                answerFeedback?.visibility = View.VISIBLE
-                answerFeedback?.setBackgroundResource(R.drawable.correct_icon)
-                nextButton?.visibility = View.VISIBLE
-                wellDone?.visibility = View.VISIBLE
-                tryAgain?.visibility = View.INVISIBLE
             } else if (questionAttempts > 2) {
                 score += 1
-                answerFeedback?.visibility = View.VISIBLE
-                answerFeedback?.setBackgroundResource(R.drawable.correct_icon)
-                nextButton?.visibility = View.VISIBLE
-                wellDone?.visibility = View.VISIBLE
-                tryAgain?.visibility = View.INVISIBLE
             }
         } else if (questionAnswer != guess) {
             answerFeedback?.visibility = View.VISIBLE
-            answerFeedback?.setBackgroundResource(R.drawable.incorrect_icon)
             tryAgain?.visibility = View.VISIBLE
             wellDone?.visibility = View.INVISIBLE
+            answerFeedback?.setBackgroundResource(R.drawable.incorrect_icon)
         }
 
         updateScore()
@@ -207,6 +210,13 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         questionAnswer?.text = questionsAndAnswers[index]?.get(3).toString()
     }
 
+    private fun finishLevel() {
+        val scoreTextView = findViewById<TextView>(R.id.scoreTextView)
+        val score = scoreTextView.text.toString()
+        val sharedPreferences = this.getSharedPreferences("application", Context.MODE_PRIVATE)
+        sharedPreferences.edit().putString("score", score).apply()
+    }
+
     private fun onNextClick() {
         answerFeedback?.visibility = View.INVISIBLE
         nextButton?.visibility = View.INVISIBLE
@@ -254,8 +264,6 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
             page9 = true
             currentPageNumber = 9
             displayQuestions(9)
-        } else if (page9) {
-            page9 = false
         }
     }
 }

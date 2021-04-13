@@ -1,21 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/single_player_main_game_screen_scroll_view"
+    android:id="@+id/single_player_main_game_screen_constraint_layout"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:fillViewport="false">
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/single_player_main_game_screen_constraint_layout"
+    android:background="@color/singlePlayerMainScreenLayoutBg"
+    android:clickable="true"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:id="@+id/mainScreenHeaderRelativeLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/mainGameLayoutBg"
-        android:clickable="true"
-        android:focusable="true">
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/mainGameNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/mainGameScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+
+        <ImageButton
+            android:id="@+id/profileButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/profile_button_icon"
+            android:backgroundTint="#FFFFFF"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/single_player_main_game_screen_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fillViewport="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainScreenHeaderRelativeLayout">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/mainGameLayoutBg"
             android:orientation="vertical"
             app:layout_constraintTop_toTopOf="parent">
 
@@ -25,9 +82,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel9"
@@ -35,9 +92,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel8"
@@ -45,9 +102,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel7"
@@ -55,9 +112,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
 
             <Button
@@ -66,9 +123,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel5"
@@ -76,9 +133,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel4"
@@ -86,9 +143,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel3"
@@ -96,9 +153,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel2"
@@ -106,9 +163,9 @@
                 android:layout_height="100dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="60dp"
+                android:alpha="0.5"
                 android:background="@drawable/locked_round_button_icon"
-                android:enabled="false"
-                android:alpha="0.5"/>
+                android:enabled="false" />
 
             <Button
                 android:id="@+id/singlePlayerMainGameLevel1"
@@ -123,5 +180,5 @@
                 android:textAlignment="center"
                 android:textSize="30sp" />
         </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

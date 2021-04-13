@@ -4,8 +4,6 @@ import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
 import android.graphics.Color
-import android.opengl.GLES20
-import android.opengl.GLSurfaceView
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
@@ -13,17 +11,10 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import io.github.douglasjunior.androidSimpleTooltip.SimpleTooltip
-import javax.microedition.khronos.egl.EGLConfig
-import javax.microedition.khronos.opengles.GL10
 
 class CreateCharacterScreen : AppCompatActivity() , DialogInterface.OnDismissListener {
     private val introductionDialog = CreateCharacterIntroductionParentFragment()
-
-//    // Surface View
-//    private lateinit var characterSurfaceView : GLSurfaceView
-//    private var finishedButton : ImageButton? = null
-//    // List of Models
-//    private var ball : Ball? = null
+    private var finishedButton : ImageButton? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,41 +23,17 @@ class CreateCharacterScreen : AppCompatActivity() , DialogInterface.OnDismissLis
         // Name Input Dialog Fragment
         introductionDialog.show(supportFragmentManager, "enter_name_introduction")
 
+        // Initiate Score
+        createScoreSharedPreference()
 
-
-//        finishedButton = findViewById(R.id.createCharacterScreenFinishedButton)
-//
-//        characterSurfaceView = findViewById(R.id.characterSurfaceView)
-//        characterSurfaceView.setEGLContextClientVersion(2)
-//        characterSurfaceView.setRenderer(object : GLSurfaceView.Renderer {
-//            override fun onDrawFrame(gl: GL10?) {
-//                ball?.draw()
-//            }
-//
-//            override fun onSurfaceChanged(gl: GL10?, width: Int, height: Int) {
-//                GLES20.glViewport(0,0, width, height);
-//            }
-//
-//            override fun onSurfaceCreated(gl: GL10?, config: EGLConfig?) {
-//                characterSurfaceView.renderMode = GLSurfaceView.RENDERMODE_WHEN_DIRTY;
-//                ball = Ball(applicationContext);
-//            } // More code goes here
-//        })
-//
-//        finishedButton?.setOnClickListener {
-//            val intent = Intent(this, GameStyleChoiceScreen::class.java)
-//            startActivity(intent)
-//        }
-//        val ballObj = ObjLoader(this, "src/main/assets/ball.obj")
-//        val ballModel = Model(ballObj)
-//        modelList.add(ballModel)
-//        Handle3DModels(this, modelList)
-//        Ball(this, ballModel)
-
-//        characterSurfaceView.setRenderer(CreateCharacterGLRenderer(this, ballModel))
-//        characterSurfaceView.renderMode = GLSurfaceView.RENDERMODE_WHEN_DIRTY
+        // Confirm Choice Button (TO BE CHANGED)
+        finishedButton = findViewById(R.id.confirmChoiceButton)
+        finishedButton?.setOnClickListener {
+            val intent = Intent(this, GameStyleChoiceScreen::class.java)
+            startActivity(intent)
+        }
     }
-//
+
     override fun onDismiss(dialog: DialogInterface?) {
        updateName()
     }
@@ -92,8 +59,36 @@ class CreateCharacterScreen : AppCompatActivity() , DialogInterface.OnDismissLis
             .transparentOverlay(false)
             .showArrow(false)
             .overlayWindowBackgroundColor(Color.BLACK)
+            .onDismissListener {
+                showScoreOverlay()
+            }
             .build()
             .show()
+    }
+
+    private fun showScoreOverlay() {
+        val view: View = findViewById(R.id.createCharacterScreenScoreLabelTextView)
+
+        SimpleTooltip.Builder(this)
+            .anchorView(view)
+            .text(R.string.createCharacterScreenOverlayText2)
+            .gravity(Gravity.BOTTOM)
+            .dismissOnInsideTouch(false)
+            .animated(true)
+            .transparentOverlay(false)
+            .showArrow(false)
+            .overlayWindowBackgroundColor(Color.BLACK)
+            .build()
+            .show()
+    }
+
+    private fun createScoreSharedPreference() {
+        val sharedPreferences = this.getSharedPreferences("application", Context.MODE_PRIVATE)
+        sharedPreferences.edit().putString("score", "0").apply()
+
+        val scoreTextView = findViewById<TextView>(R.id.createCharacterScreenScoreLabelTextView)
+        val score = sharedPreferences.getString("score", "")
+        scoreTextView.text = score
     }
 
 }

@@ -24,9 +24,9 @@ class CreateCharacterIntroductionParentFragment : DialogFragment(), CreateCharac
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.create_character_introduction_parent_fragment, container, false)
-        val textView = view.findViewById<TextView>(R.id.createCharacterIntroductionParentTextView)
-        val nextButton = view.findViewById<ImageButton>(R.id.createCharacterIntroductionParentNextButton)
+        val view = inflater.inflate(R.layout.dialog_fragment, container, false)
+        val textView = view.findViewById<TextView>(R.id.dialogFragmentTextView)
+        val nextButton = view.findViewById<ImageButton>(R.id.dialogFragmentNextButton)
 
         nextButton.setOnClickListener {
             onNextButtonPressed(textView)
@@ -38,7 +38,7 @@ class CreateCharacterIntroductionParentFragment : DialogFragment(), CreateCharac
         view: View,
         @Nullable savedInstanceState: Bundle?
     ) {
-        val textView = view.findViewById<TextView>(R.id.createCharacterIntroductionParentTextView)
+        val textView = view.findViewById<TextView>(R.id.dialogFragmentTextView)
         textView.setText(R.string.createCharacterIntroduction1)
     }
 
@@ -57,7 +57,7 @@ class CreateCharacterIntroductionParentFragment : DialogFragment(), CreateCharac
         } else if (textView.text.toString() == getString(R.string.createCharacterIntroduction3)) {
             val transaction = childFragmentManager.beginTransaction()
             val createCharacterEnterNameFragment = CreateCharacterEnterNameFragment()
-            transaction.replace(R.id.createCharacterIntroductionParentFragment, createCharacterEnterNameFragment)
+            transaction.replace(R.id.dialogFragment, createCharacterEnterNameFragment)
             transaction.commit();
             textView.text = null
         } else {

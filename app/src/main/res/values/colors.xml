@@ -22,17 +22,19 @@
     <color name="variableLayoutBg">#A4D6C951</color>
     <color name="characterLayoutBg">#CE7FB576</color>
     <color name="gameStyleLayoutBg">#CEB9B3D6</color>
+    <color name="singlePlayerMainScreenLayoutBg">#EE9DECE5</color>
     <color name="multiPlayerConnectionLayoutBg">#BEE3DE</color>
-    <color name="singPlayerLevel1LayoutBg">#79CABF</color>
-    <color name="singPlayerLevel2LayoutBg">#CA7979</color>
-    <color name="singPlayerLevel3LayoutBg">#CAC279</color>
-    <color name="singPlayerLevel4LayoutBg">#79CA84</color>
-    <color name="singPlayerLevel5LayoutBg">#A279CA</color>
-    <color name="singPlayerLevel6LayoutBg">#A8CA79</color>
-    <color name="singPlayerLevel7LayoutBg">#CAA379</color>
-    <color name="singPlayerLevel8LayoutBg">#7999CA</color>
-    <color name="singPlayerLevel9LayoutBg">#DFE37F</color>
-    <color name="singPlayerLevel10LayoutBg">#9879CA</color>
 
-    <color name="mainGameLayoutBg">#E6242A2B</color>
+
+    <color name="Level1LayoutBg">#75B67E</color>
+    <color name="Level2LayoutBg">#CAA379</color>
+    <color name="Level3LayoutBg">#EBC18282</color>
+    <color name="Level4LayoutBg">#E6BDB880</color>
+    <color name="Level5LayoutBg">#C6594370</color>
+    <color name="rLevel6LayoutBg">#A8CA79</color>
+    <color name="Level7LayoutBg">#79CABF</color>
+    <color name="Level8LayoutBg">#7999CA</color>
+    <color name="Level9LayoutBg">#AB7E3417</color>
+    <color name="Level10LayoutBg">#CE0B0EC3</color>
+
 </resources>

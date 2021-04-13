@@ -17,10 +17,10 @@ class SinglePlayerLevel1IntroductionFragment :  DialogFragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.single_player_levels_fragment, container, false)
-        val textView = view.findViewById<TextView>(R.id.singlePlayerLevelsTextView)
-        val nextButton = view.findViewById<ImageButton>(R.id.singlePlayerLevelsNextButton)
-        val finishedButton = view.findViewById<ImageButton>(R.id.singlePlayerLevelsFinishedButton)
+        val view = inflater.inflate(R.layout.dialog_fragment, container, false)
+        val textView = view.findViewById<TextView>(R.id.dialogFragmentTextView)
+        val nextButton = view.findViewById<ImageButton>(R.id.dialogFragmentNextButton)
+        val finishedButton = view.findViewById<ImageButton>(R.id.dialogFragmentFinishedButton)
 
         nextButton.setOnClickListener {
             onNextButtonPressed(textView, nextButton, finishedButton)
@@ -36,7 +36,7 @@ class SinglePlayerLevel1IntroductionFragment :  DialogFragment() {
         view: View,
         @Nullable savedInstanceState: Bundle?
     ) {
-        val textView = view.findViewById<TextView>(R.id.singlePlayerLevelsTextView)
+        val textView = view.findViewById<TextView>(R.id.dialogFragmentTextView)
         textView.setText(R.string.singlePlayerLevel1Introduction1)
     }
 
