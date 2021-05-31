@@ -40,7 +40,7 @@
     <string name="singlePlayerMainGameIntroductionText1">Now that you have finished building your character, you can start to play the game.</string>
     <string name="singlePlayerMainGameIntroductionText2">There are 3 main sections to this game:\n\n•Arithmetic\n•Conditions\n•Looping</string>
     <string name="singlePlayerMainGameIntroductionText3">Each section will have multiple levels.\n\nYou need to complete each level and gather enough points before you can move onto the next level.\n\nThe last level will be a small quiz so you can test yourself on what you\'ve learnt in the game.</string>
-    <string name="singlePlayerMainGamePlayerProfileOverlayText1">Here you can see your player details including your name and current score.\n\nTo see your full player profile, click the button on the right.</string>
+    <string name="singlePlayerMainGamePlayerProfileOverlayText1">Here you can see your player details including your name and current score.</string>
     <string name="Zero">0</string>
     <string name="One">1</string>
     <string name="Two">2</string>
@@ -86,4 +86,6 @@
     <string name="incorrectWarning">Incorrect, try again!</string>
     <string name="wellDone">Well done!</string>
     <string name="createCharacterInstructions">Pick an avatar from the options below and confirm your choice using the tick:</string>
+    <string name="level1Instruction">Select your choice from the buttons below:</string>
+    <string name="requires_bluetooth">Requires Bluetooth</string>
 </resources>

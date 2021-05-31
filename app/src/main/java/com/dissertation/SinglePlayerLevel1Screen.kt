@@ -1,17 +1,19 @@
+/* This class contains the code used for displaying the Single Player Level 1 Screen. */
 package com.dissertation
 
 import android.content.Context
 import android.os.Bundle
 import android.view.View
-import android.widget.EditText
 import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import org.w3c.dom.Text
 import java.util.Collections.shuffle
 
 class SinglePlayerLevel1Screen : AppCompatActivity() {
+    /*
+    Initialize all of the variables used within this screen.
+     */
     private val introductionDialog = SinglePlayerLevel1IntroductionFragment()
     private var questionsAndAnswers : MutableMap<Int, Array<Int>> = mutableMapOf()
 
@@ -42,12 +44,25 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
     private var tryAgain : TextView? = null
     private var wellDone : TextView? = null
 
+    /*
+    When this class is called, display the Level 1 gameplay screen.
+
+    Store references to the screen components to be used elsewhere in the class.
+
+    Shuffle and randomise the Index Array used for the question display order.
+
+    Generate and display the questions for the level.
+
+    Control the user attempts at the questions. Every time a guess is made, increment the attempts
+    counter and pass the guess to the checkAnswers function.
+
+    When the level is finished, return to the Single Player main menu and update the score.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.single_player_level_1_screen)
         introductionDialog.show(supportFragmentManager, "level_1_introduction")
 
-        // Initialise Components
         val additionButton = findViewById<ImageButton>(R.id.additionButton)
         val subtractionButton = findViewById<ImageButton>(R.id.subtractionButton)
         val multiplicationButton = findViewById<ImageButton>(R.id.multiplicationButton)
@@ -109,6 +124,10 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
 
     }
 
+    /*
+    When the screen is first displayed, add the user details to the header including the Name from
+    the Shared Preferences. Set all feedback components to invisible.
+     */
     private fun pageSetup() {
         val levelTextView = findViewById<TextView>(R.id.levelNumberDisplayTextView)
         levelTextView.setText(R.string.One)
@@ -127,11 +146,25 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         updateScore()
     }
 
+    /*
+    Set the Score as 0 until the user begins to gain points.
+     */
     private fun updateScore() {
         val scoreTextView = findViewById<TextView>(R.id.scoreTextView)
         scoreTextView.text = score.toString()
     }
 
+    /*
+    Every time the user attempts a question, check the correct answer for that question in the
+    questionsAndAnswers map.
+
+    If the attempt matches the correct answer, the feedback components are changed to visible,
+    displaying the correct message and icon and depending on the number of attempts, the score is
+    updated accordingly.
+
+    If the answer is incorrect, the feedback components are changed to visible, displaying the
+    incorrect message and icon.
+     */
     private fun checkAnswer(pageNumber : Int, guess : Int) {
         val index = indexArray[pageNumber - 1]
         val questionAnswer = questionsAndAnswers[index]?.get(2)
@@ -148,7 +181,6 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
             answerFeedback?.setBackgroundResource(R.drawable.correct_icon)
             if (questionAttempts == 1) {
                 score += 3
-
             } else if (questionAttempts == 2) {
                 score += 2
             } else if (questionAttempts > 2) {
@@ -164,6 +196,13 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         updateScore()
     }
 
+    /*
+    The Arithmetic Operator questions are generated. Nine questions in total are generated: 3 for
+    addition and 2 for subtraction, multiplication and division.
+
+    Using the index of the respective FOR loop as the key, the first and second operands,
+    the correct operator integer and the answer are stored in the array as the value of the map.
+     */
     private fun generateQuestions() {
         // Add numbers between 0 and 100
         for (i in 0..2) {
@@ -175,7 +214,7 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         }
 
         // Subtract numbers between 0 and 100
-        for (i in 3..5) {
+        for (i in 3..4) {
             val num1 = (1..100).random()
             val num2 = (1..100).random()
             val answer = num1 - num2
@@ -184,7 +223,7 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         }
 
         // Multiply numbers between 12 and 12
-        for (i in 6..8) {
+        for (i in 5..6) {
             val num1 = (1..12).random()
             val num2 = (1..12).random()
             val answer = num1 * num2
@@ -192,7 +231,7 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
             questionsAndAnswers[i] = arrayOf(num1, num2, correctOperation, answer)
         }
 
-        for (i in 9..11) {
+        for (i in 7..8) {
             val num1 = (1..12).random()
             val num2 = (1..12).random()
             val answer = num1 * num2
@@ -201,6 +240,14 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         }
     }
 
+    /*
+    Using the map containing the previously generated questions and answers and the randomised array
+    of indices, the question components on the screen are displayed.
+
+    The first and second operands and the answer are displayed in their appropriate places on the
+    screen. The correct answer integer is not displayed, instead a question mark is shown where the
+    user needs to guess the correct answer.
+     */
     private fun displayQuestions(pageNumber : Int) {
         levelProgress?.text = pageNumber.toString()
         val index = indexArray[pageNumber - 1]
@@ -210,6 +257,10 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         questionAnswer?.text = questionsAndAnswers[index]?.get(3).toString()
     }
 
+    /*
+    When the user has successfully answered all nine questions, the Score is added as a Shared
+    Preference.
+     */
     private fun finishLevel() {
         val scoreTextView = findViewById<TextView>(R.id.scoreTextView)
         val score = scoreTextView.text.toString()
@@ -217,6 +268,10 @@ class SinglePlayerLevel1Screen : AppCompatActivity() {
         sharedPreferences.edit().putString("score", score).apply()
     }
 
+    /*
+    Depending on the number of the page/question, update the page number and question every time the
+    user presses the next button.
+     */
     private fun onNextClick() {
         answerFeedback?.visibility = View.INVISIBLE
         nextButton?.visibility = View.INVISIBLE

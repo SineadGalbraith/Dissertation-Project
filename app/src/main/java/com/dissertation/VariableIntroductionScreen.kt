@@ -1,3 +1,4 @@
+/* This class contains the code used for displaying the Variable Introduction Screen. */
 package com.dissertation
 
 import android.content.Intent
@@ -8,6 +9,15 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
 class VariableIntroductionScreen : AppCompatActivity() {
+
+    /*
+    When this class is called, display the Variable Introduction Screen. Store references to the
+    on-screen components for use elsewhere in the class.
+
+    Set up the onClickListeners for the buttons on-screen providing the main functionality.
+
+    When the user presses the "Finish" button, change to the Create Character Screen.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.variable_introduction_screen)
@@ -33,6 +43,10 @@ class VariableIntroductionScreen : AppCompatActivity() {
         }
     }
 
+    /*
+    Depending on the currently displayed text passage, update the textView or make the "Finished"
+    button visible when the user presses the "Next" button.
+     */
     private fun onNextClick(textView: TextView, nextButton: ImageButton, finishedButton: ImageButton) {
         if (textView.text.toString() == getString(R.string.variableText1)) {
             textView.setText(R.string.variableText2)
@@ -54,11 +68,15 @@ class VariableIntroductionScreen : AppCompatActivity() {
             textView.setText(R.string.variableText10)
         } else if (textView.text.toString() == getString(R.string.variableText10)) {
             textView.setText(R.string.variableText11)
-            nextButton.visibility = View.GONE
+            nextButton.visibility = View.INVISIBLE
             finishedButton.visibility = View.VISIBLE
         }
     }
 
+    /*
+    Depending on the currently displayed text passage, update the textView or make the "Finished"
+    button invisible when the user presses the "Back" button.
+     */
     private fun onBackClick(textView: TextView, nextButton: ImageButton, finishedButton: ImageButton) {
         if (textView.text.toString() == getString(R.string.variableText1)) {
             val intent = Intent(this, WelcomeIntroductionScreen::class.java)
@@ -83,7 +101,7 @@ class VariableIntroductionScreen : AppCompatActivity() {
             textView.setText(R.string.variableText9)
         } else if (textView.text.toString() == getString(R.string.variableText11)) {
             textView.setText(R.string.variableText10)
-            finishedButton.visibility = View.GONE
+            finishedButton.visibility = View.INVISIBLE
             nextButton.visibility = View.VISIBLE
         }
     }

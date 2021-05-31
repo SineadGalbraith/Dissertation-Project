@@ -50,8 +50,6 @@
                 android:textAlignment="center"
                 android:textColor="#000000"
                 android:textSize="22sp" />
-
         </RelativeLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

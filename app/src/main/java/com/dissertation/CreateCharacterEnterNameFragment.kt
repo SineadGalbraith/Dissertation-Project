@@ -1,3 +1,4 @@
+/* This class contains the code used for entering the Character Name in the Create Character Screen. */
 package com.dissertation
 
 import android.os.Bundle
@@ -9,14 +10,20 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 
-
 class CreateCharacterEnterNameFragment : Fragment() {
 
+    /*
+    Outlining the two functions to be implemented when this interface is implemented.
+     */
     internal interface CreateCharacterEnterNameFragmentListener {
         fun showAlert()
         fun saveName(name: String?)
     }
 
+    /*
+    When this class is called, display the Enter Name fragment used for taking the user input and
+    add a "Done" button to the user's keyboard.
+     */
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

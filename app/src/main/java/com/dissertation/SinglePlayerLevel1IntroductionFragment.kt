@@ -1,3 +1,4 @@
+/* This class contains the code used for displaying the Single Player Level 1 Introduction Fragment. */
 package com.dissertation
 
 import android.app.Dialog
@@ -12,6 +13,12 @@ import androidx.fragment.app.DialogFragment
 
 class SinglePlayerLevel1IntroductionFragment :  DialogFragment() {
 
+    /*
+    When this class is called, display the Dialog Fragment and store the components of the
+    fragment locally.
+
+    If the finished button is pressed, close the Dialog Fragment.
+     */
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -32,6 +39,9 @@ class SinglePlayerLevel1IntroductionFragment :  DialogFragment() {
         return view
     }
 
+    /*
+    When the class is called, display the first of the text passages for the Dialog Fragment.
+     */
     override fun onViewCreated(
         view: View,
         @Nullable savedInstanceState: Bundle?
@@ -40,6 +50,9 @@ class SinglePlayerLevel1IntroductionFragment :  DialogFragment() {
         textView.setText(R.string.singlePlayerLevel1Introduction1)
     }
 
+    /*
+    Store the created Dialog Fragment as a variable to be used elsewhere in the class.
+    */
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         val dialog = super.onCreateDialog(savedInstanceState)
         dialog.setCancelable(false)
@@ -47,6 +60,10 @@ class SinglePlayerLevel1IntroductionFragment :  DialogFragment() {
         return dialog
     }
 
+    /*
+    Depending on the current displayed text passage, change the content of the textView when the
+    "Next" button is pressed.
+     */
     private fun onNextButtonPressed(textView: TextView, nextButton: ImageButton, finishedButton: ImageButton) {
         if (textView.text.toString() == getString(R.string.singlePlayerLevel1Introduction1)) {
             textView.setText(R.string.singlePlayerLevel1Introduction2)

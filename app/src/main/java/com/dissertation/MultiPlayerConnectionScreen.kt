@@ -1,3 +1,4 @@
+/* This class contains the code used for displaying the MultiPlayerConnection Screen and the Bluetooth setup within the screen. */
 package com.dissertation
 
 import android.annotation.SuppressLint
@@ -11,7 +12,6 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
-
 
 private const val REQUEST_ENABLE_BT = 0
 
@@ -29,11 +29,21 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
     private var pairs : MutableMap<String?, String?> = mutableMapOf()
     private var devicesNames : ArrayList<String?> = arrayListOf()
 
+    /*
+    When the class is called, display the Multiplayer Connection Screen. Store multiple components
+    from this screen as variables to be used elsewhere in this class.
+
+    Create a Bluetooth Adapter to determine if the current device has Bluetooth capabilities. If the
+    device has Bluetooth, call the Bluetooth Setup function.
+
+    If Bluetooth is supported, control and toggle Bluetooth from within the application using the
+    handleBluetoothToggle function. Start Discovery for the device and find devices that the current
+    device is already paired with.
+     */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.multi_player_connection_screen)
 
-        // Initialise components
         bluetoothButton = findViewById(R.id.multiPlayerConnectionScreenBluetoothButton)
         bluetoothToggleSwitch = findViewById(R.id.bluetoothToggleSwitch)
         pairedDevicesListView = findViewById(R.id.pairedDevicesListView)
@@ -42,29 +52,28 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
 
         val statusChangedFilter = IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED)
 
-        // Initialize bluetooth
         bluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
         if (bluetoothAdapter != null) {
             bluetoothIsSupported = true
             bluetoothSetup()
         } else {
-            // bluetooth not supported
             bluetoothIsSupported = false
         }
 
         if (bluetoothIsSupported) {
-            // Status Changed
             registerReceiver(statusChangedReceiver, statusChangedFilter)
-            // Toggle Bluetooth using Switch
             bluetoothToggleSwitch?.setOnClickListener {
                 handleBluetoothToggle()
             }
-            // Show Paired Devices
-//            startDeviceDiscovery()
+            startDeviceDiscovery()
             findPairedDevices()
         }
     }
 
+    /*
+    Determine the state of Bluetooth on the device; whether it is ON or OFF or if the state has
+    changed.
+     */
     private val statusChangedReceiver: BroadcastReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context?, intent: Intent) {
             val action = intent.action
@@ -85,6 +94,11 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         }
     }
 
+    /*
+    Scan for other nearby devices. Change the visibility of the current device.
+
+    If a new device is found, get the device details and add them to a map of found devices.
+     */
     private val devicesFoundReceiver = object : BroadcastReceiver() {
         override fun onReceive(context: Context, intent: Intent) {
             when(intent.action) {
@@ -95,7 +109,6 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
                     progressBar?.visibility = View.GONE
                 }
                 BluetoothDevice.ACTION_FOUND -> {
-                    println("DEVICE FOUND")
                     val device: BluetoothDevice? = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE)
                     val deviceName = device?.name
                     val deviceHardwareAddress = device?.address
@@ -109,6 +122,13 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         }
     }
 
+    /*
+    Determine if Bluetooth is already switched ON on the device. If it is, update the screen to
+    reflect the Bluetooth status. If it is not, display a prompt on the screen asking the user if
+    they would like to turn Bluetooth on.
+
+    Begin the scan for new devices.
+     */
     private fun bluetoothSetup() {
         if (bluetoothAdapter?.isEnabled == false) {
             val enableBtIntent = Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE)
@@ -119,6 +139,10 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         startDeviceDiscovery()
     }
 
+    /*
+    When the toggle button within the screen is changed, depending on the current status of the
+    Bluetooth, either enable or disable Bluetooth accordingly.
+     */
     private fun handleBluetoothToggle() {
         if (bluetoothToggleSwitch?.isChecked == true) {
             bluetoothAdapter?.enable()
@@ -127,6 +151,14 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         }
     }
 
+    /*
+    Using the Bluetooth settings of the current device, return a list of devices that are currently
+    paired with this device. Store this list in a local variable and for each device in the list,
+    store the name and MAC address and add the device to a list of paired devices called "pairs".
+
+    Add all of the keys of the "pairs" list, i.e the names of the paired devices, to a new ArrayList.
+    Using an Array Adapter, convert the ArrayList into a list that can be displayed on screen.
+     */
     private fun findPairedDevices() {
         val pairedDevices: Set<BluetoothDevice>? = bluetoothAdapter?.bondedDevices
         pairedDevices?.forEach { device ->
@@ -141,8 +173,11 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         pairedDevicesListView?.adapter = adapter
     }
 
+    /*
+    Begin the device scan for new Bluetooth devices within the proximity using the Bluetooth Adapter
+    and Broadcast Receiver.
+     */
     private fun startDeviceDiscovery() {
-        println("HEREeeeee")
         val devicesFoundFilter = IntentFilter()
         devicesFoundFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_STARTED)
         devicesFoundFilter.addAction(BluetoothAdapter.ACTION_DISCOVERY_FINISHED)
@@ -152,6 +187,10 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         bluetoothAdapter?.startDiscovery()
     }
 
+    /*
+    If the list of new devices if not empty, convert the names of the new devices into an ArrayList.
+    Using an Array Adapter, convert the ArrayList into a list that can be displayed on screen.
+     */
     private fun displayFoundDevices(foundDevices: MutableMap<String?, String?>) {
         val newDeviceNames = if (foundDevices.isNotEmpty()) {
             ArrayList(foundDevices.keys)
@@ -159,19 +198,14 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
             arrayListOf("No Devices Found.")
         }
 
-        println("NEW DEVICES: $newDeviceNames")
         val adapter = ArrayAdapter(this, R.layout.list_view_item, newDeviceNames)
         newDevicesListView?.adapter = adapter
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-
-        bluetoothAdapter?.cancelDiscovery()
-        unregisterReceiver(statusChangedReceiver)
-        unregisterReceiver(devicesFoundReceiver)
-    }
-
+    /*
+    When the Bluetooth is OFF, change the on-screen elements to reflect this. The toggle switch
+    will be in the "off" position and the Bluetooth logo will appear grey.
+     */
     private fun bluetoothOffDisplaySettings() {
         bluetoothButton?.alpha = 0.5f
         bluetoothToggleSwitch?.isChecked = false
@@ -179,6 +213,10 @@ class MultiPlayerConnectionScreen : AppCompatActivity() {
         bluetoothAdapter?.cancelDiscovery()
     }
 
+    /*
+    When the Bluetooth is ON, change the on-screen elements to reflect this. The toggle switch
+    will be in the "on" position and the Bluetooth logo will appear black.
+    */
     private fun bluetoothOnDisplaySettings() {
         bluetoothButton?.alpha = 1.0f
         bluetoothToggleSwitch?.isChecked = true

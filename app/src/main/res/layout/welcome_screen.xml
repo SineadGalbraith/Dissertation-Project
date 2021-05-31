@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     android:focusable="true">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/welcomeScreenLayoutBg">

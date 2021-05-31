@@ -75,9 +75,6 @@
                 tools:layout_editor_absoluteX="329dp"
                 tools:layout_editor_absoluteY="473dp"
                 android:visibility="gone"/>
-
         </RelativeLayout>
-
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

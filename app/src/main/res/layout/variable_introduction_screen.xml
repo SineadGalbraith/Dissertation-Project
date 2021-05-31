@@ -75,7 +75,6 @@
                 app:srcCompat="@drawable/finished_button_icon"
                 tools:layout_editor_absoluteX="329dp"
                 tools:layout_editor_absoluteY="473dp" />
-
         </RelativeLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>
