@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.douglasjunior:android-simple-tooltip:1.0.0-rc.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6270f1161175424bfb87a0c3f8292562/jetified-android-simple-tooltip-1.0.0-rc.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6270f1161175424bfb87a0c3f8292562/jetified-android-simple-tooltip-1.0.0-rc.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6270f1161175424bfb87a0c3f8292562/jetified-android-simple-tooltip-1.0.0-rc.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.douglasjunior/android-simple-tooltip/1.0.0-rc.0/b00393042fa732dfcad95c62357fa92f0d07c294/android-simple-tooltip-1.0.0-rc.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.douglasjunior/android-simple-tooltip/1.0.0-rc.0/dc0b35dd5535cea05e3c1a1d777f1818bac2e4a8/android-simple-tooltip-1.0.0-rc.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
