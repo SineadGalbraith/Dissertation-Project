@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\profile_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_incorrect_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\incorrect_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_locked_round_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\locked_round_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_division_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\division_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_confirm_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\confirm_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bluetooth_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\bluetooth_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view_item.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\list_view_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\back_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_subtraction_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\subtraction_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_profile_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\profile_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_correct_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\correct_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_back_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\back_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_relative_layout_border.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\relative_layout_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_game_style_choice_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\game_style_choice_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_variable_introduction_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\variable_introduction_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_levels_header_layout.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\levels_header_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_fragment.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_subtraction_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\subtraction_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_finished_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\finished_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_next_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\next_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_round_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\round_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_border.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\edit_text_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_points_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\points_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_division_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\division_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_incorrect_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\incorrect_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\welcome_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_confirm_choice_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\confirm_choice_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\raw_model_fs.txt.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\raw\\model_fs.txt"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_addition_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\addition_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_locked_level_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\locked_level_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_finished_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\finished_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_addition_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\addition_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_round_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\round_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_finished_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\finished_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_confirm_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\confirm_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_introduction_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\welcome_introduction_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_multi_player_button.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\multi_player_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_back_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\back_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_division_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\division_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_locked_level_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\locked_level_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_profile_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\profile_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_multiplication_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\multiplication_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_multi_player_connection_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\multi_player_connection_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_round_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\round_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_locked_level_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\locked_level_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_addition_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\addition_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bluetooth_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\bluetooth_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_create_character_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\create_character_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bluetooth_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\bluetooth_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_confirm_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\confirm_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_next_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\next_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_back_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\back_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_correct_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\correct_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_points_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\points_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_next_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\next_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bluetooth_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\bluetooth_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_player_main_game_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\single_player_main_game_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_correct_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\correct_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_locked_level_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\locked_level_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_next_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\next_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_round_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\round_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_create_character_enter_name_fragment.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\create_character_enter_name_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_correct_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\correct_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_multiplication_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\multiplication_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_incorrect_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\incorrect_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_round_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\round_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_finished_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\finished_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_finished_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\finished_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\raw_model_vs.txt.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\raw\\model_vs.txt"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_locked_level_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\locked_level_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable_single_player_button.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable\\single_player_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_back_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\back_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_division_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\division_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_addition_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\addition_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\next_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_incorrect_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\incorrect_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_subtraction_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\subtraction_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_incorrect_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\incorrect_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_points_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\points_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_bluetooth_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\bluetooth_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_confirm_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\confirm_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_multiplication_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\multiplication_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_points_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\points_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_addition_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\addition_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_player_level_1_screen.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\layout\\single_player_level_1_screen.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_subtraction_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\subtraction_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_profile_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\profile_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_profile_button_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\profile_button_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_division_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-hdpi\\division_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_correct_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xxhdpi\\correct_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_multiplication_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\multiplication_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_multiplication_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\multiplication_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_confirm_button_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-xhdpi\\confirm_button_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi_subtraction_icon.xml.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-anydpi\\subtraction_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_points_icon.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\drawable-mdpi\\points_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\sgal\\Documents\\5th Year\\CS7092 - Dissertation\\Dissertation-Project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]
